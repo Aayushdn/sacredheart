@@ -165,26 +165,25 @@ nav ul {
   color: white;
 }
 
-
 @media screen and (max-width: 768px) {
   .logo {
     width: 70px;
     height: 70px;
   }
 
-  .header{
+  .header {
     justify-content: center;
   }
 
-  .header .info{
+  .header .info {
     display: none;
   }
 
-  .slide{
+  .slide {
     padding: 10px 30px;
   }
 
-  .header nav{
+  .header nav {
     display: none;
   }
   .mainContent {
@@ -221,5 +220,8 @@ nav ul {
     padding: 10px 20px;
   }
 }
-  
+
+.lightTxt a {
+  color: yellow;
+  text-decoration: none;
 }
