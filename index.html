@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Welcome to SHBS</title>
+    <script defer src="./script.js"></script>
   </head>
   <body>
     <div class="container">
       <!-- <img src="./assets/backgroundSchool.jpg" class="backImg" alt="" /> -->
-      <header>
+      <header class="header">
         <div class="logoContainer">
-          <img src="./assets/logo.png" alt="" />
+          <img src="./assets/logo.png" alt="" class="logo" />
         </div>
         <div class="info">
           <h1>Sacred Heart Secondary Boarding School</h1>
@@ -22,9 +23,9 @@
         </div>
         <nav>
           <ul class="navLinks">
-            <li class="navLink">Home</li>
-            <li class="navLink">About</li>
-            <li class="navLink">Contact</li>
+            <li class="navLink" id="header">Home</li>
+            <li class="navLink" id="aboutContent">About</li>
+            <li class="navLink" id="contact">Contact</li>
           </ul>
         </nav>
       </header>
@@ -71,31 +72,90 @@
           <section class="team">
             <div class="slider">
               <div class="slide">
-                <p class="boldTxt">
-                  Message from our Principal
-                </p>
+                <p class="boldTxt">Message from our Principal</p>
                 <p class="detail">
-                  As a team at Sacred Hearts, we hold our students to the highest of expectations both in and outside of the classroom. We have a wonderful combination of people and place which will take our students towards the perfection.<br>
+                  As a team at Sacred Hearts, we hold our students to the
+                  highest of expectations both in and outside of the classroom.
+                  We have a wonderful combination of people and place which will
+                  take our students towards the perfection.<br />
 
-  
-  As Principal, I use all tools available to motivate staff, students and community to work together to promote the achievement of students.
-  <br>
-  
-  Together, we collaborate and communicate to ensure a better learning environment where all students feel safe, welcomed, and motivated to improve their learning.
-  <br>
-  
-  Cooperative competition in the teaching and learning will obviously help each student to achieve their goal.
+                  As Principal, I use all tools available to motivate staff,
+                  students and community to work together to promote the
+                  achievement of students.
+                  <br />
+
+                  Together, we collaborate and communicate to ensure a better
+                  learning environment where all students feel safe, welcomed,
+                  and motivated to improve their learning.
+                  <br />
+
+                  Cooperative competition in the teaching and learning will
+                  obviously help each student to achieve their goal.
+                </p>
+                <p>
+                  Thank you!<br />
+                  <b>Badrinath Bhatta </b><br />
+                  Principal
                 </p>
               </div>
             </div>
           </section>
+          <section class="facilities">
+            <h1 class="topic">Facilities</h1>
+            <div class="facility">
+              <h1 class="title">Extra curricular activities ECA:</h1>
+              <p class="detail">
+                At Sacred Heart, we provide students with a wide range of
+                activities that are integrated within the weekly schedule of the
+                academic routine. A designated hour is dedicated to the holistic
+                development. that It includes emotional, social, physical,
+                artistic, creative and spiritual development of students. The
+                school offers hands–on projects and opportunities for students
+                to hone essential life-skills that prepare them to become
+                life–long learners and achievers. Students are encouraged, and
+                provided with forums to develop their leadership skills and
+                ability to adapt to new challenges, and to become lifelong
+                learners. Different clubs comprising and involving students as
+                members such as IT and Science Club, Social Club, Young
+                Entrepreneurs Club, Debate Club, Theatre and Communication,
+                among others are invested with the responsibility of organizing
+                and conducting at least one major event showcasing the Club
+                activities during the academic year.
+              </p>
+            </div>
+            <div class="facility">
+              <h1 class="title">Classrooms</h1>
+              <p class="detail">
+                Classrooms are spaciously designed to accommodate thirty–six
+                students. Student furniture is chosen so as to provide the
+                necessary comfort and support for proper seating posture taking
+                into account the long hours students put in inside the
+                classroom. Each classroom is equipped with a fixed projector,
+                and access to high-speed internet connectivity to ensure the use
+                of technology as an aid for teaching-learning activities in the
+                classroom.
+              </p>
+            </div>
+            <div class="facility">
+              <h1 class="title">Cafeteria</h1>
+              <p class="detail">
+                The school has a provision of canteen for students, and they can
+                take meal (lunch or snacks) on self-payment. The canteen serves
+                freshly prepared and well–balanced lunch and snacks to students
+                and staff. Students are given a choice between vegetarian and
+                non–vegetarian food with a diverse set of menu options every day
+                to ensure they enjoy healthy and nutritious meals.
+              </p>
+            </div>
+          </section>
         </section>
         <section class="contact">
-          <h1 class="topic">Contact Us</h1>
-          <div class="detail">
+          <div>
+            <h1 class="topic">Contact Us</h1>
+
             <p>
               <span class="boldTxt">Address:</span>
-              Tarkeshwor Municipality Ward no 4,Seshmati <br />01-4353861
+              Tarkeshwor Municipality Ward no 4,Seshmati <br />
             </p>
             <p>
               <span class="boldTxt">Phone:</span>
@@ -103,8 +163,12 @@
             </p>
             <p>
               <span class="boldTxt">Email:</span>
+            </p>
+          </div>
+          <div class="logo">
+            <img src="./assets/logo.jpg" class="logo" alt="" />
+          </div>
         </section>
-        
       </main>
     </div>
   </body>
